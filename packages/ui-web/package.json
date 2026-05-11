@@ -1,0 +1,19 @@
+{
+  "name": "@obsiwealth/ui-web",
+  "version": "0.0.1",
+  "private": true,
+  "description": "DOM / HTML rendering layer shared by the Obsidian plugin host and future web / Electron / RN-Web hosts.",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "dependencies": {
+    "@obsiwealth/core": "*"
+  },
+  "peerDependencies": {
+    "obsidian": "latest"
+  },
+  "peerDependenciesMeta": {
+    "obsidian": {
+      "optional": true
+    }
+  }
+}

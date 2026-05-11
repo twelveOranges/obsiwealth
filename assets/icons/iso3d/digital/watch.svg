@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<defs>
+    <linearGradient id="w3dCase" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e5e7eb"/>
+      <stop offset="1" stop-color="#6b7280"/>
+    </linearGradient>
+    <linearGradient id="w3dScreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="32" cy="56" rx="18" ry="2.5" fill="rgba(0,0,0,0.18)"/>
+  <path d="M22 4 h20 v10 h-20 z" fill="#475569"/>
+  <rect x="16" y="14" width="32" height="32" rx="6" fill="url(#w3dCase)"/>
+  <rect x="20" y="18" width="24" height="24" rx="3" fill="url(#w3dScreen)"/>
+  <rect x="20" y="18" width="24" height="8" fill="rgba(255,255,255,0.25)"/>
+  <path d="M22 46 h20 v10 h-20 z" fill="#475569"/>
+  <circle cx="48" cy="28" r="2" fill="#1e293b"/>
+</svg>

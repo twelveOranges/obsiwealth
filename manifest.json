@@ -1,0 +1,10 @@
+{
+  "id": "obsiwealth",
+  "name": "ObsiWealth",
+  "version": "0.0.1",
+  "minAppVersion": "1.4.0",
+  "description": "Personal wealth and asset tracker.",
+  "author": "twelveOranges",
+  "authorUrl": "",
+  "isDesktopOnly": true
+}

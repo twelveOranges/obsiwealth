@@ -1,0 +1,8 @@
+{
+  "name": "@obsiwealth/core",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Platform-neutral domain logic for ObsiWealth: types, calculations, i18n, storage interfaces, host context. Has no DOM, no Obsidian, no platform APIs.",
+  "main": "src/index.ts",
+  "types": "src/index.ts"
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<defs>
+    <linearGradient id="lp3dScreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="lp3dBase" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cbd5e1"/>
+      <stop offset="1" stop-color="#64748b"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="32" cy="56" rx="18" ry="2.5" fill="rgba(0,0,0,0.18)"/>
+  <path d="M10 14 h44 v28 h-44 z" fill="#1e293b"/>
+  <rect x="13" y="17" width="38" height="22" fill="url(#lp3dScreen)"/>
+  <path d="M13 17 h38 v7 l-38 4 z" fill="rgba(255,255,255,0.18)"/>
+  <path d="M4 42 h56 l-4 8 h-48 z" fill="url(#lp3dBase)"/>
+  <path d="M26 42 h12 l-1 2 h-10 z" fill="#475569"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64"
+  fill="none" stroke="#15803d" stroke-width="3"
+  stroke-linecap="round" stroke-linejoin="round">
+  <path d="M6 44 q4 -10 14 -10 q6 0 12 4 q6 4 14 4 q8 0 12 -6"
+    fill="#dcfce7" stroke="#15803d"/>
+  <circle cx="48" cy="22" r="9" fill="#fde68a" stroke="#b45309"/>
+  <text x="48" y="27" text-anchor="middle"
+    font-family="Arial, sans-serif" font-size="11" font-weight="900"
+    fill="#b45309" stroke="none">¥</text>
+  <path d="M48 32 L42 40 M48 32 L54 40" stroke="#15803d" stroke-width="3"/>
+  <path d="M14 50 V58 M30 52 V58 M46 52 V58" stroke="#15803d"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<defs>
+    <linearGradient id="t3dBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#334155"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="t3dScreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#4c1d95"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="32" cy="56" rx="18" ry="2.5" fill="rgba(0,0,0,0.18)"/>
+  <rect x="10" y="8" width="44" height="46" rx="4" fill="url(#t3dBody)"/>
+  <rect x="13" y="11" width="38" height="40" rx="1" fill="url(#t3dScreen)"/>
+  <path d="M13 11 h38 v14 l-38 6 z" fill="rgba(255,255,255,0.2)"/>
+</svg>

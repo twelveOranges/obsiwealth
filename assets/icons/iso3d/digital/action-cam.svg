@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<defs>
+    <linearGradient id="ac3dBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#64748b"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <radialGradient id="ac3dLens" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#7dd3fc"/>
+      <stop offset="0.7" stop-color="#1e3a8a"/>
+      <stop offset="1" stop-color="#020617"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="32" cy="56" rx="18" ry="2.5" fill="rgba(0,0,0,0.18)"/>
+  <rect x="14" y="16" width="36" height="30" rx="4" fill="url(#ac3dBody)"/>
+  <rect x="14" y="16" width="36" height="8" rx="4" fill="rgba(255,255,255,0.18)"/>
+  <circle cx="32" cy="32" r="9" fill="#0f172a"/>
+  <circle cx="32" cy="32" r="7" fill="url(#ac3dLens)"/>
+  <circle cx="28" cy="29" r="2" fill="rgba(255,255,255,0.55)"/>
+  <rect x="18" y="40" width="6" height="2" rx="1" fill="#f87171"/>
+</svg>

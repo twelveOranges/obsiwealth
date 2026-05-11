@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<defs>
+    <linearGradient id="c3dBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#475569"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <radialGradient id="c3dLens" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#60a5fa"/>
+      <stop offset="0.7" stop-color="#1e3a8a"/>
+      <stop offset="1" stop-color="#020617"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="32" cy="56" rx="18" ry="2.5" fill="rgba(0,0,0,0.18)"/>
+  <path d="M8 22 h12 l4 -6 h16 l4 6 h12 v24 h-48 z" fill="url(#c3dBody)"/>
+  <path d="M8 22 h48 v4 h-48 z" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="32" cy="34" r="11" fill="#0f172a"/>
+  <circle cx="32" cy="34" r="9" fill="url(#c3dLens)"/>
+  <circle cx="28" cy="30" r="2.5" fill="rgba(255,255,255,0.55)"/>
+  <rect x="46" y="26" width="4" height="3" rx="1" fill="#ef4444"/>
+</svg>

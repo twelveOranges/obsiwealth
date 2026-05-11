@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "strict": false,
+    "esModuleInterop": true,
+    "outDir": ".",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@core": ["packages/core/src/index.ts"],
+      "@core/*": ["packages/core/src/*"],
+      "@ui": ["packages/ui-web/src/index.ts"],
+      "@ui/*": ["packages/ui-web/src/*"],
+      "@host/*": ["apps/obsidian/src/*"]
+    }
+  },
+  "include": ["packages/**/*.ts", "packages/**/*.d.ts", "apps/**/*.ts"],
+  "exclude": ["node_modules"]
+}

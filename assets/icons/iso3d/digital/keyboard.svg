@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<defs>
+    <linearGradient id="kb3dBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e5e7eb"/>
+      <stop offset="1" stop-color="#6b7280"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="32" cy="56" rx="18" ry="2.5" fill="rgba(0,0,0,0.18)"/>
+  <path d="M4 28 l56 -8 v16 l-56 8 z" fill="url(#kb3dBody)"/>
+  <path d="M4 28 l56 -8 l0 3 l-56 8 z" fill="rgba(255,255,255,0.4)"/>
+  <g fill="#94a3b8">
+    <rect x="10" y="30" width="5" height="3" rx="0.5" transform="skewY(-8)"/>
+    <rect x="18" y="29" width="5" height="3" rx="0.5" transform="skewY(-8)"/>
+    <rect x="26" y="28" width="5" height="3" rx="0.5" transform="skewY(-8)"/>
+    <rect x="34" y="27" width="5" height="3" rx="0.5" transform="skewY(-8)"/>
+    <rect x="42" y="26" width="5" height="3" rx="0.5" transform="skewY(-8)"/>
+    <rect x="10" y="36" width="36" height="3" rx="0.5" transform="skewY(-8)"/>
+  </g>
+</svg>
